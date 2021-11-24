@@ -1,5 +1,5 @@
 import {ApolloProvider, ApolloClient, InMemoryCache} from '@apollo/client';
-import Books from "./Books";
+import Rates from "./Rates";
 
 const client = new ApolloClient({
     cache: new InMemoryCache(),
@@ -9,7 +9,7 @@ const client = new ApolloClient({
 function App() {
     return (
         <ApolloProvider client={client}>
-            <Books/>
+            <Rates/>
         </ApolloProvider>
     );
 }

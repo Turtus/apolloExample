@@ -1,17 +1,17 @@
 import {ApolloConsumer} from '@apollo/client';
-import BooksData from "./BooksData";
+import RatesData from "./RatesData";
 
-function Books() {
+function Rates() {
     return (
         <div>
             <h1>Books</h1>
             <ApolloConsumer>
                 {client =>
-                    <BooksData/>
+                    <RatesData/>
                 }
             </ApolloConsumer>
         </div>
     );
 }
 
-export default Books;
+export default Rates;
