@@ -13,6 +13,10 @@ const typeDefs = gql`
     binanceGetPrices: [binancePrice]
     binanceGetMappedPrices: Object
   }
+  
+  type Subscription {
+    binanceUpdatedMappedPrices: Object
+  }
 `;
 
 module.exports = typeDefs;

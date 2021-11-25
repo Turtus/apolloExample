@@ -3,6 +3,7 @@
  */
 const {RESTDataSource} = require('apollo-datasource-rest');
 
+
 class BinanceMappedAPI extends RESTDataSource {
     constructor() {
         super();
