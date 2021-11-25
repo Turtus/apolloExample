@@ -7,4 +7,8 @@ module.exports = {
             },
         }),
     },
+
+    resolver: {
+        sourceExts: ['cjs', 'jsx', 'js', 'ts', 'tsx']
+    },
 }
